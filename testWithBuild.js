@@ -192,3 +192,5 @@ s.add("founding father");
 for (var value of s) {
     console.log(value.toString() + ",");
 }
+
+//vscode modify
