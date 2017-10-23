@@ -6,6 +6,8 @@ The new branch has been created now
 
 pull request
 
+theme-monokai文件夹
+
 记录js学习的笔记2017-06-12
 
 1. 原生JavaScript： 
