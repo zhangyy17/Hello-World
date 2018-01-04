@@ -3,7 +3,8 @@ jquery map 经典的写法 key value key就是引用 寻址用
  */
 
 
-// arg is for internal usage only 仅供内部使用 arg参数是此方法内部使用的参数
+// arg is for internal usage only
+//  仅供内部使用 arg参数是此方法内部使用的参数
 // map最多接收3个参数
 // 第一个 map 映射 的对象 对谁进行映射
 // 第二个 map 映射 用的回调函数 如何映射
