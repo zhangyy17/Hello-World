@@ -1,0 +1,98 @@
+<snippet>
+    <content>
+        <![CDATA[[${1}](${1} "${1}")]]>
+    </content>
+    <tabTrigger>anchor</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+
+<snippet>
+    <content>
+        <![CDATA[[${1}][]
+
+
+[${1}]:   ${1} (${1})]]>
+    </content>
+    <tabTrigger>anchorm</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+<snippet>
+    <content>
+        <![CDATA[`${1}`]]>
+    </content>
+    <tabTrigger>code</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+<snippet>
+    <content>
+        <![CDATA[*${1}*]]>
+    </content>
+    <tabTrigger>em</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+<snippet>
+    <content>
+        <![CDATA[# ${1} #]]>
+    </content>
+    <tabTrigger>h1</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+<snippet>
+    <content>
+        <![CDATA[***]]>
+    </content>
+    <tabTrigger>hr</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+<snippet>
+    <content>
+        <![CDATA[![${1}](${1} "${1}")]]>
+    </content>
+    <tabTrigger>img</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+
+<snippet>
+    <content>
+        <![CDATA[![${1}][id]
+
+[id]:   ${1} "${1}"]]>
+    </content>
+    <tabTrigger>imgm</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+<snippet>
+    <content>
+        <![CDATA[${1}
+===========]]>
+    </content>
+    <tabTrigger>titleb</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
+
+
+
+<snippet>
+    <content>
+        <![CDATA[${1}
+--------------------]]>
+    </content>
+    <tabTrigger>titles</tabTrigger>
+    <scope>text.html.markdown</scope>
+</snippet>
