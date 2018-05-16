@@ -2,7 +2,7 @@
 
 <snippet>
     <content>
-        <![CDATA[[${1}](${1} "${1}")]]>
+        <![CDATA[[${1:链接文字}](${2:url} "${3:链接title}")]]>
     </content>
     <tabTrigger>anchor</tabTrigger>
     <scope>text.html.markdown</scope>
@@ -12,10 +12,8 @@
 
 <snippet>
     <content>
-        <![CDATA[[${1}][]
-
-
-[${1}]:   ${1} (${1})]]>
+        <![CDATA[[${1:链接文字}][${2:ID}]
+[${2:ID}]:    ${3:URL}    "${4:title}"]]>
     </content>
     <tabTrigger>anchorm</tabTrigger>
     <scope>text.html.markdown</scope>
@@ -24,7 +22,9 @@
 
 <snippet>
     <content>
-        <![CDATA[`${1}`]]>
+        <![CDATA[```${1:代码类型}
+${2:代码区}
+```]]>
     </content>
     <tabTrigger>code</tabTrigger>
     <scope>text.html.markdown</scope>
@@ -42,7 +42,7 @@
 
 <snippet>
     <content>
-        <![CDATA[# ${1} #]]>
+        <![CDATA[# ${1:一级标题} #]]>
     </content>
     <tabTrigger>h1</tabTrigger>
     <scope>text.html.markdown</scope>
@@ -60,7 +60,7 @@
 
 <snippet>
     <content>
-        <![CDATA[![${1}](${1} "${1}")]]>
+        <![CDATA[![${1:alt text}](${2:path} "${3:title}")]]>
     </content>
     <tabTrigger>img</tabTrigger>
     <scope>text.html.markdown</scope>
@@ -70,9 +70,8 @@
 
 <snippet>
     <content>
-        <![CDATA[![${1}][id]
-
-[id]:   ${1} "${1}"]]>
+        <![CDATA[![${1:alt text}][${2:id}]
+[${2:id}]:    ${3:path}    "${4:title}"]]>
     </content>
     <tabTrigger>imgm</tabTrigger>
     <scope>text.html.markdown</scope>
@@ -81,7 +80,7 @@
 
 <snippet>
     <content>
-        <![CDATA[${1}
+        <![CDATA[${1:big-title}
 ===========]]>
     </content>
     <tabTrigger>titleb</tabTrigger>
@@ -92,7 +91,7 @@
 
 <snippet>
     <content>
-        <![CDATA[${1}
+        <![CDATA[${1:small-title}
 --------------------]]>
     </content>
     <tabTrigger>titles</tabTrigger>
